@@ -1,0 +1,243 @@
+
+/* 
+    Created on : 13-Feb-2018, 16:14:25
+    Author     : Aoife Magee
+*/
+
+body {
+        background-color: white;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin: 0px;
+	padding: 0px;        
+        background: url("../images/earth1.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+         background-size: cover;
+}
+
+.container {
+
+	max-width: 1000px;
+        height: 650px;  
+	margin: 5px auto;
+	overflow: auto;
+	padding: 60px 0 0 0;
+	text-align: center;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 2px;
+        margin-bottom: 0px;       
+}
+
+nav {
+	background-color: rgba(211,211,211,0.4);
+	height: 50px;
+        margin-top: 10px;
+}
+
+main {
+	
+	padding:60px 60px 60px 60px;
+	background-color: rgba(211,211,211,0.4);
+	font-family:Verdana, Geneva, sans-serif;
+        min-height: 530px;
+        height: auto;      
+}
+
+.mylinemenu ul{
+	padding: 10px 0px 20px 0px; 
+	margin: 0px;
+	text-align: center; 
+}
+
+.mylinemenu ul li{	
+    display: inline;
+}
+
+
+h1 {
+        color: lightgrey;
+	font-family: Tahoma;
+	font-size: 35px;
+	
+	margin-top: -50px;
+        border-radius:3pt;
+        border: 2px solid white;
+}
+
+footer {
+	background-color: rgba(211,211,211,0.4);
+        margin-top: 85px;
+	padding: 15px 30px;
+	font-family:Arial;
+	font-size: 10px;
+	color: black;
+	text-align: center;
+        height: 25px;
+}
+
+.purple {
+        color: white;
+}
+
+#house_pic {
+	margin-top: 25px;
+        margin-left: 337px;
+        margin-right: 300px;       
+        width:50px;
+	height:10px;
+        float: none;
+        display: block; 
+}
+
+ table {
+    width: 70%;
+    background-color: rgba(192,192,192,0.8);
+    margin: 10px auto;
+    margin-top: 225px;
+}
+
+tr th {
+    color: darkslateblue;  
+    width: 50%;
+    text-align: center;
+}
+
+ tbody tr td {
+    background-color: rgba(192,192,192,0.8);
+}
+
+table, th, td {
+    border: 1px solid slategray;
+    border-collapse: collapse;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    color: white;  
+}
+
+td {
+    width: 10px;  
+}
+
+thead {
+    width: 50px;
+}
+
+
+/*** CSS for Form on index.php page ***/
+
+.form-style{
+    max-width:400px;
+    margin:-40px auto;
+    margin-top: -15px;
+    background:#fff;
+    border-radius:2px;
+    padding:20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style h1{
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+    color: #5C5C5C;
+    font-size:x-large;
+}
+.form-style ul{
+    list-style:none;
+    padding:0;
+    margin:0;   
+}
+.form-style li{
+    display: block;
+    padding: 9px;
+    border:1px solid gray;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.form-style li > label{
+    display: block;
+    float: left;
+    margin-top: -19px;
+    background: #FFFFFF;
+    height: 14px;
+    padding: 2px 5px 2px 5px;
+    color: darkslateblue;
+    font-size: 14px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-style input[type="text"],
+.form-style textarea,
+.form-style select 
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+    font-family: Arial;
+}
+.form-style input[type="text"]:focus,
+.form-style textarea:focus,
+.form-style select:focus 
+{
+}
+.form-style li > span{
+    background: #F3F3F3;
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: darkslateblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.form-style textarea{
+    resize:none;
+}
+.form-style input[type="submit"],
+.form-style input[type="button"]{
+    background: #2471FF;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 3px solid #5994FF;
+    border-radius: 3px;
+    color: #D2E2FF;
+}
+.form-style input[type="submit"]:hover,
+.form-style input[type="button"]:hover{
+    background: #6B9FFF;
+    color:#fff;
+    border: none;
+}
+
+#submit {
+    border: none;
+}
+
+#add_county, #add_town {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:darkslateblue;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-bottom: 15px;   
+}
+
+#lists {
+    color: rgba (178, 102, 255, 0.8);
+    font-family: Arial;
+}
